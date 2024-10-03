@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const jugadores = [
-        "Carlos González",
-        "Roberto Pérez",
-        "Miguel Gutiérrez",
-        "Luis Hernández"
+        "ALFREDO ZUÑIGA",
+        "CARLOS ZUÑIGA",
+        "EMILIO ZUÑIGA",
+        "CESAR ZUÑIGA"
     ];
     
     const jugadoresList = document.getElementById("jugadores-list");
