@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página oficial del Club Deportivo Magallanes. Descubre su historia, jugadores, y ponte en contacto con nosotros.">
+    <meta name="keywords" content="Club Deportivo Magallanes, fútbol, Chile, deportes, historia, jugadores">
+    <meta name="author" content="Club Deportivo Magallanes">
+    <title>Club Deportivo Magallanes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Club Deportivo Magallanes</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#jugadores">Jugadores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <h2>Historia</h2>
+            <p>El Club Deportivo Magallanes, fundado en 1897, es uno de los clubes de fútbol más antiguos y prestigiosos de Chile. A lo largo de su rica historia, ha sido pionero en el desarrollo del fútbol chileno, y ha mantenido una base de aficionados fieles.</p>
+        </section>
+
+        <section id="jugadores">
+            <h2>Jugadores</h2>
+            <ul id="jugadores-list">
+                <!-- Lista generada dinámicamente -->
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Club Deportivo Magallanes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
